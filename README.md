@@ -11,5 +11,5 @@ IWA2
 # Challenge 3 : fixed the code to print a warning to the console 
 
 IWA3
-#challenge 1: fixed the typos and syntax
+# challenge 1: fixed the typos and syntax
 
