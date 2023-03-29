@@ -1,13 +1,7 @@
-// configuration.js
-
-const company = 'ACME Inc.'
-const year = 2022
-
-export { company, year};
-
 // scripts.js
 
-import { company, year } from './configuration.js'
+import { role as mwabisa } from "nwabisa.js"
+import { role as johannes } from "johannes.js"
+import { role as alex} from "alex.js"
 
-const message = '© ' + company + ' (' + year + ')'
-document.querySelector('footer').innerText = message
+console.log('Roles:', nwabisa.role, johannes.role, alex.role)
