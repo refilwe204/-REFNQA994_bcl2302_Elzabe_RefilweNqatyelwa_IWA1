@@ -1,11 +1,11 @@
 // johannes.js
 
-export { role as johannes } from "johannes.js"
+
 
 const firstName = "Johannes"
 const surname = "Potgieter"
-const role = "Intern"
+export const role1 = "Intern"
 
-const display= firstName + " " + surname + " (" + role + ")"
-document.querySelector('#johannes').innerText = fullName + surname
+const display= firstName + " " + surname + " (" + role1 + ")"
+document.querySelector('#johannes').innerText = display
 
