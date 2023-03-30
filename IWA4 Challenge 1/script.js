@@ -1,6 +1,7 @@
-let date =2050;
+// Use a let keyword to declare a constant value
+let date= 2050;
 let status = 'student';
-let count = 0;
+let count = 0; 
 
 if (date === 2050) { 
 	console.log("January", 'New Year’s Day');
@@ -8,7 +9,6 @@ if (date === 2050) {
 	console.log("April", 'Family Day'); 
 	console.log("April", 'Freedom Day'); 
 	count += 4; 
-
 
 	if (status === "student") {
 		console.log('June', 'Youth Day');
@@ -20,15 +20,15 @@ if (date === 2050) {
 	console.log('December', 'Day of Reconciliation');
 	count += 3;
 
-	if (status = "parent") {
-	  console.log(date, 'Christmas Day')
-		let count = count + 1
-  }
+	if (status === "parent") {
+		console.log('December', 'Christmas Day');
+		count += 1;
+	}
 
-	console.log(date, 'Day of Goodwill')
-	let count = count + 1
+	console.log('December', 'Day of Goodwill');
+	count += 1;
 }
 
-console.log('Your status is:', status)
-console.log('The year is:', date)
-console.log('The total holidays is:', count)
+console.log('Your status is:', status);
+console.log('The year is:', date);
+console.log('The total holidays is:', count);
