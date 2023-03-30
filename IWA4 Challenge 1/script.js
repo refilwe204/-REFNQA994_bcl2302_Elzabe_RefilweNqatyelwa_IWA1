@@ -28,7 +28,3 @@ if (date === 2050) {
 	console.log('December', 'Day of Goodwill');
 	count += 1;
 }
-
-console.log('Your status is:', status);
-console.log('The year is:', date);
-console.log('The total holidays is:', count);
