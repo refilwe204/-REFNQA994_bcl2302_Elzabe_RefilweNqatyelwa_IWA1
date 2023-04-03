@@ -4,7 +4,7 @@ const BANNED_WARNING = 'Unfortunately we do not ship to your country of residenc
 const NONE_SELECTED = '0';
 
 // calculating shipping cost based on user's location
-const userShippingcost = () => {
+const userShippingCost = () => {
     if (location === "RSA") { 
     let userCost = 0 
     let user = 0
