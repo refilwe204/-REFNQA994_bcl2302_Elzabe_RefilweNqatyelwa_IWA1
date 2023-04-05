@@ -15,7 +15,7 @@ const userShippingCost = () => {
         console.log(BANNED_WARNING)
      }
  }
-       else(location = "NK") 
+       elseif (location = "NK") 
         console.log(BANNED_WARNING) // Log a message that we do not ship to this country
 }
  
