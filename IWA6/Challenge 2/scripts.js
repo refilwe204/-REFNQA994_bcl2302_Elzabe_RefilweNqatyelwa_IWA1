@@ -8,19 +8,18 @@ const minuteOfDay = 0;
 
 // Only change below this line
 
-// Check if it's midnight and if minuteOfDay has been set
-// Also check if hourOfDay is 0 and minuteOfDay is 0
+// Check if hourOfDay and minuteOfDay are defined and it is midnight
 if (hourOfDay !== undefined && minuteOfDay !== undefined && hourOfDay === 0 && minuteOfDay === 0) {
  
- // Convert tax to a decimal
+ // Convert tax percentage to a decimal
   const taxAsDecimal = parseInt(tax) / 100;
 
-// Calculate salary after tax
+// Calculate balance after tax deduction
   const startingAfterTax = salary *(1- taxAsDecimal);
 
-// Calculate balance after deducting transport, food, and rent
+// Calculate balance after deducting expenses
   const balance = startingAfterTax - transport - food - rent;
   
-// Print the balance to the console with a 'R' prefix 
+ // Log the balance with the R symbol and 2 decimal places
   console.log('R' + balance.toFixed(2));
 }
