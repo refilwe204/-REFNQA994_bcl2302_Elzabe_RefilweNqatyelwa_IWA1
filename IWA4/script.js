@@ -9,7 +9,7 @@ if (date === 2050) {
 	console.log("March", 'Human Rights Day');
 	console.log("April", 'Family Day'); 
 	console.log("April", 'Freedom Day'); 
-	count += 4; 
+	count += 4;// += is a combination variable 
 
 	if (stats == "student") {
 		// If the person is a student, display the Youth Day holiday and increment the count
