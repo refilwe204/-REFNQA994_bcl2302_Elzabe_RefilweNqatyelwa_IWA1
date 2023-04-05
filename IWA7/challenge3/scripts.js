@@ -14,8 +14,15 @@ const divider = '----------------------------------'
 
 // Only change below this line
 
+
 const owed =  (Math.abs(leoBalance) + Math.abs(sarahBalance)).toFixed(2)
+
 const leo = `${leoName} ${leoSurname.trim()} (Owed: R ${Math.abs(leoBalance).toFixed(2)})`
-const sarah = "{leoName} + {surname} + \"Owed\" + \"R\" + {sarahBalance}"
-const total = "Total amount owed: "
-const result = leo + sarah + divider + divider + total + owed + divider
+
+const sarah = `${sarahName.trim()} ${sarahSurname} (Owed: R ${Math.abs(sarahBalance).toFixed(2)})`
+
+const total = "  Total amount owed: R "
+
+const result = `${leo}\n${sarah}\n\n${divider}\n${total}${owed}\n${divider}`;
+
+console.log(result)
