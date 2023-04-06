@@ -42,7 +42,5 @@ const sarah = {
 };
 
 // Log the values of Leo and Sarah's objects as well as their postal code
-console.log(leo);
-console.log(leo.address.postalCode);
-console.log(sarah);
-console.log(sarah.address.postalCode);
+console.log(leo, leo.address.postalCode);
+console.log(sarah, sarah.address.postalCode);
