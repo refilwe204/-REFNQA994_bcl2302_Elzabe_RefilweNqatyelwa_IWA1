@@ -8,7 +8,8 @@ const size = 'large';
 const expenses = {
     food: 51.7501,
     transport:  10.2,
-};
+    
+}; // added semicolon
   
 const tax = {
     734: '3%',
@@ -29,10 +30,12 @@ const rent = {
 };
 
 // You can change below however you want
-
+// converting tax
 const taxAsDecimal = parseInt(tax[913]) / 100;
+// deducting tax from salary
 const startingAfterTax = salary * (1-taxAsDecimal)
 const type = lodging + size
+// balance after expenses are deducting
 const balance = startingAfterTax - expenses.transport - expenses.food - rent['large-apartment'];
-
+//output the balance
 console.log(balance.toFixed(2));
