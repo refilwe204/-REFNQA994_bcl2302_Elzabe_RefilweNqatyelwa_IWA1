@@ -33,3 +33,12 @@ IWA7
 # challenge 2: fixed the code to log Good morning! with either a firstName or nickname
 
 # challenge 3: fixed the code to log a single value but split into three different lines
+
+IWA8
+# challenge 1: fixed the code to log both the new leo and sarah objects in the browser console, followed by their respective postal codes.
+
+IWA9
+# challenge 1: fixed the code to log final value that should be logged to the console should be: 2658.05
+
+ IWA10
+ # challenge 1: fixed the code to log 
