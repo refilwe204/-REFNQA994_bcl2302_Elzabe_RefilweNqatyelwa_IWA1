@@ -41,4 +41,32 @@ IWA9
 # challenge 1: fixed the code to log final value that should be logged to the console should be: 2658.05
 
  IWA10
- # challenge 1: fixed the code to log 
+ # challenge 1: fixed the code to log the following * ID change: false
+                                                    * Name change: X-mas
+                                                    * Date change: 25/12/2023
+
+IWA11
+# challenge 1: fixed this code to ensure that each instance of Loading... is swapped out with the value from the data attributes instead.
+
+IWA12
+# challlenge 1: Fixed the code to * Enable/disable buttons based on the status/properties in the STATUS_MAP object.
+                                  * Buttons are only allowed to be black and grayscale (no colour is allowed).
+                                  * The colour of the status indicator text should correspond to the values in STATUS_MAP
+
+IWA13
+# challenge 1: Fixed the code to console log User: John (3).
+
+IWA14
+# challenge 1: Fixed the code to console log Hello, John (35). I love coding! twice.
+# challenge 2: Fixed the code to console log  two values which are 48 & 12
+
+IWA15
+# challenge 1: Fixed the code to console log following array [10, 12, 14, 5, 7, 13, 11, 15, 4, 8, 6, 2, 1, 3, 9]
+
+IWA16
+# challenge 2: Fixed the code to console log *Full name (firstName and surname) of athlete
+                                             *The total recorded amount of races they ran as a number. For example 3 or 5
+                                             *The date of the last race they ran should be formatted as d MM YYYY in accordance with the TR35  standard, For example, 7 Oct 2022.
+                                             *The total time it took to complete the last race also formatted with the TR35 standard as HH:MM. For example, 91 minutes will be 01:31
+
+
